@@ -141,18 +141,22 @@
     &copy; 2025 RishuPlays. All rights reserved.
   </footer>
   <h2>Enquiry Form</h2>
-<form action="https://formspree.io/f/xzzrdjon" method="POST">
-  <label for="name"> Name:</label><br />
-  <input type="text" name="name" id="name" required /><br /><br />
+<div style="max-width: 500px; margin: 30px auto; background: #1a1a1a; padding: 25px; border-radius: 15px; box-shadow: 0 0 15px #0ff; border: 2px solid #0ff;">
+  <h2 style="text-align:center; color:#0ff; margin-bottom: 20px;">Enquiry Form</h2>
+  <form action="https://formspree.io/f/xzzrdjon" method="POST">
+    <label for="name" style="color:#fff;">Name:</label><br />
+    <input type="text" id="name" name="name" required style="width: 100%; padding: 10px; margin: 8px 0 20px; border-radius: 8px; border: none; background: #333; color: white;" />
 
-  <label for="phone"> Mobile Number:</label><br />
-  <input type="tel" name="phone" id="phone" required pattern="[0-9]{10}" /><br /><br />
+    <label for="phone" style="color:#fff;">Mobile Number:</label><br />
+    <input type="tel" id="phone" name="phone" required pattern="[0-9]{10}" style="width: 100%; padding: 10px; margin: 8px 0 20px; border-radius: 8px; border: none; background: #333; color: white;" />
 
-  <label for="message"> Your Message:</label><br />
-  <textarea name="message" id="message" rows="4" required></textarea><br /><br />
+    <label for="message" style="color:#fff;">Your Message:</label><br />
+    <textarea id="message" name="message" rows="4" required style="width: 100%; padding: 10px; margin: 8px 0 20px; border-radius: 8px; border: none; background: #333; color: white;"></textarea>
 
-  <button type="submit">Submit</button>
-</form>
+    <button type="submit" style="background: #0ff; color: #000; padding: 12px 20px; border: none; border-radius: 10px; width: 100%; font-weight: bold; cursor: pointer;">Submit</button>
+  </form>
+</div>
+
 
 </body>
 </html>
